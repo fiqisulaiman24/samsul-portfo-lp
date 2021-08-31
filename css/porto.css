@@ -1,0 +1,517 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+*:focus {
+    outline: 0 !important;
+}
+
+body{
+	font-family: 'Lexend', sans-serif;
+	overflow:hidden;
+}
+
+/* Navbar Hero */
+.hero.is-link{
+	background-color: #00316E;
+	color: #fff;
+}
+
+.hero.is-link .navbar-menu{
+	background-color: #00316E;
+	color: #fff;
+}
+
+.navbar.has-centered-menu .navbar-start{
+    flex-grow: 1;
+    justify-content: center;
+    font-weight: 500;
+}
+
+.porto-logo{
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size:24px;
+}
+
+.porto-logo:before{
+	content: "";
+	width: 110px;
+	height: 3px;
+	left: 0;
+	background: orange;
+	position: absolute;
+	margin-top: 33px;
+	margin-left:13px;
+}
+/* Navbar Hero */
+
+.porto-headline{
+	font-size: 60px;
+	font-weight: 500;
+	text-decoration: underline;
+	padding-bottom: 3rem;
+}
+
+button.hire-me-cta{
+	padding-left: 30px;
+	padding-right: 30px;
+	background-color: orange;
+	color: #fff;
+	border: orange;
+	font-weight: 500;
+	cursor: pointer;
+}
+
+button.hire-me-cta:hover{
+	background: #fff;
+	color: orange;
+	cursor: pointer;
+}
+
+button.hire-me-cta:focus{
+	background: orange;
+	color: #fff;
+	cursor: pointer;
+}
+
+/* Hero Headline */
+.card.porto-image-box{
+	box-shadow: none;
+}
+
+.porto-box-1{
+	width: 360px;
+	height: 383px;
+	background: #ffd700;
+	display: block;
+	margin: auto;
+	border: 5px solid #fff;
+	position: relative;
+	z-index: 1;
+}
+
+.porto-box-1 > img {
+	overflow: hidden;
+	transform: translate(0, -63px);
+}
+
+.porto-image-box:before{
+	content:"";
+	background:#fff;
+	border-left: 1px solid #203354;
+	border-bottom: 1px solid #203354;
+	width:150px;
+	height:150px;
+	position:absolute;
+	bottom:-5px;
+	left:-10px;
+	display:block;
+	z-index: -1;
+}
+
+.porto-image-box:after{
+	content: "";
+	width: 100px;
+	height: 2px;
+	right: -5%;
+	top: 5%;
+	background: orange;
+	position: absolute;
+	border-radius: 0px;
+	margin-top: 0px;
+}
+/* Hero Headline */
+
+/* Porto Section & Title */
+.porto-container{
+	margin: 30px;
+}
+
+.porto-title{
+	color: orange;
+	padding-bottom: 15px;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+
+.porto-title:before{
+	content: "";
+	width: 20px;
+	height: 2px;
+	left: 0;
+	background: orange;
+	position: absolute;
+	border-radius: 0px;
+	margin-top: 12px;
+}
+
+.porto-subtitle{
+	color: #233d63;
+}
+/* Porto Section & Title */
+
+
+/* About Section Tabs & Description */
+.tabs ul{
+	border-bottom-style: none;
+    border-bottom-width: 0;
+}
+
+.tabs li.is-active a {
+    color: orange;
+	font-weight: 700;
+	transition: ease-in .2s;
+}
+
+.tabs a{
+	color: #334b6e;
+	font-weight: 600;
+	padding: 0.5em 1.3em;
+}
+
+.tabs a:hover{
+	color:orange;
+	font-weight: 700;
+	transition: ease-in .2s;
+}
+
+.about-description{
+	margin: 1.2rem;
+	font-weight: 500;
+	line-height: 1.8;
+	color: #57667e;
+	transition: ease-in .3s;
+}
+
+.about-btn{
+	padding-top: 1.8rem;
+	margin: 1.2rem;
+}
+
+.about-btn > a{
+	font-weight: 500;
+	color: orange;
+	border-color: orange;
+	padding: 1rem;
+}
+
+.about-btn > a:hover{
+	border-color: orange;
+	background-color: orange;
+	color: #fff;
+}
+
+.about-btn > a:focus{
+	border-color: orange;
+	background-color: orange;
+	color: #fff;
+}
+.list-experience{
+	list-style: none;
+	padding: 0;
+}
+
+.list-experience li{
+	list-style: none;
+	font-weight: 700;
+	color:#233d63;
+	/* padding-left: 1.3em; */
+}
+
+.list-experience p{
+	font-weight: 500;
+}
+
+.list-experience li::before{
+	content:"\eab8"; 
+	font-family: Icofont;
+	display: inline-block;
+	margin-left: -1.4em; 
+	width: 1.4em;
+	color:orange;
+}
+
+.image-skill{
+	filter:grayscale(100%);
+}
+/* About Section Tabs & Description */
+
+/* Service Section Card & Description */
+.media-content{
+	overflow: hidden;
+}
+
+.card.service-card-1{
+	border-radius: 2px;
+	border-top: 5px solid #d9dff8;
+	box-shadow: 0 10px 10px 0 whitesmoke;
+}
+
+.card.service-card-1:hover{
+	transition: all .5s;
+	transform : translateY(-10px);
+}
+
+.card.service-card-2{
+	border-radius: 2px;
+	border-top: 5px solid #fdebd0;
+	box-shadow: 0 10px 10px 0 whitesmoke;
+}
+
+.card.service-card-3{
+	border-radius: 2px;
+	border-top: 5px solid #fda3b2;
+	box-shadow: 0 10px 10px 0 whitesmoke;
+}
+
+.card.service-card-4{
+	border-radius: 2px;
+	border-top: 5px solid #f0e2ff;
+	box-shadow: 0 10px 10px 0 whitesmoke;
+}
+
+.card.service-card-5{
+	border-radius: 2px;
+	border-top: 5px solid #caf3fc;
+	box-shadow: 0 10px 10px 0 whitesmoke;
+}
+
+.card.service-card-6{
+	border-top: 5px solid #c9fce6;
+	box-shadow: 0 10px 10px 0 whitesmoke;
+}
+
+.service-title{
+	color: orange;
+	text-transform: uppercase;
+}
+
+.service-job{
+	color: #233d63;
+}
+
+.service-description{
+	font-weight: 500;
+	color: #57667e;
+	padding-top: 10px;
+	/* padding-bottom: 1.5rem; */
+}
+
+.portfolio-works{
+	border: 10px solid #d9dff8;
+	border-radius:3px;
+}
+
+.btn-works-dropdown{
+	font-weight: 500;
+	color: orange;
+	border-color: orange;
+}
+
+.btn-works-dropdown:hover{
+	background-color:orange;
+	font-weight:500;
+	color:#fff;
+	border-color: orange;
+}
+
+.btn-works-dropdown:focus{
+	background-color:orange;
+	font-weight:500;
+	color:#fff;
+	border-color: orange;
+}
+
+a.dropdown-item.is-active, button.dropdown-item.is-active {
+    background-color: orange;
+    color: #fff;
+}
+
+.btn-works-porto > button{
+	border: 0;
+	outline-color: orange;
+}
+
+.btn-works-porto > button:nth-child(2){
+	margin-left: 10px;
+}
+
+.icon-works-porto{
+	color: #00316E;
+}
+
+.icon-works-porto:hover{
+	color:orange;
+	transition: ease-in .2s;
+}
+
+
+/* Service Section Card & Description */
+.client-box{
+	margin: 32px;
+}
+
+.client-card{
+	border: 0;
+	box-shadow: none;
+}
+
+.client-card:before{
+	width: 100px;
+	height: 100px;
+	line-height: 100px;
+	border-radius: 50px;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 100px;
+	text-align: center;
+	color: white;
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: 700;
+	margin: 0 auto 10px;
+	background: #f9a826;
+}
+
+.client-name{
+	font-weight: 600;
+	color:orange;
+}
+
+.client-position{
+	font-weight: 600;
+	color: #233d63;
+}
+
+.client-description{
+	font-weight: 500;
+	color: #57667e;
+}
+
+.card.client-image-box{
+	border:0;
+	box-shadow:none;
+}
+.client-image-box > img {
+	border:5px solid #233d63;
+	width:100%;
+	display: block;
+}
+
+.client-image-box:before{
+	content: "";
+	width: 70px;
+	height: 5px;
+	left: -10%;
+	bottom: 10%;
+	background: orange;
+	transform: rotate(-50deg);
+	position: absolute;
+	z-index:1;
+}
+
+.client-image-box:after{
+	content: "";
+	width: 42px;
+	height: 42px;
+	border:4px solid orange;
+	right: -5%;
+	top: 5%;
+	background: transparent;
+	transform:rotate(-10deg);
+	position: absolute;
+}
+
+/* Blog Section & Card */
+.card.blog-card{
+	border-radius: 2px;
+	box-shadow: 0 10px 10px 0 whitesmoke;
+}
+
+.card.blog-card:before{
+	content:"";
+	background:#fff;
+	border-left: 5px solid orange;
+	width:15px;
+	height:50px;
+	position:absolute;
+	top:0px;
+	left:0px;
+	display:block;
+	z-index: 1;
+}
+
+.blog-content{
+	padding: 1rem !important;
+}
+
+.blog-creator-name{
+	color: #233d63;
+	font-weight: 600;
+}
+
+.blog-creator-name .blog-post{
+	color:grey;
+	font-weight: 500;
+}
+
+.blog-tag{
+	font-weight: 500;
+}
+
+.blog-title{
+	color: #233d63;
+}
+
+.blog-description{
+	font-weight: 500;
+	color: #57667e;
+	padding-top: 15px;
+}
+/* Blog Section & Card*/
+
+/*Contact*/
+.porto-contact{
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	background-color: #00316E;
+	color: #fff;
+	text-align: center;
+}
+
+.contact-box{
+	margin: 1rem;
+}
+
+.contact-box .contact-title{
+	color: #fff;
+	font-weight: 500;
+	letter-spacing: 1px;
+}
+
+.contact-box .contact-mail{
+	color: #fff;
+	font-weight: 600;
+	letter-spacing: 1px;
+	text-decoration: underline;
+}
+/*Contact*/
+
+/* Footer Section */
+nav.level .level-item > a{
+	font-weight: 600;
+	color: #57667e;
+}
+
+.footer-porto{
+	background: #fff;
+	/* padding: 3rem 2rem 3rem; */
+}
+
+.copy-porto{
+	font-weight:600;
+	color:#57667e;
+}
+/* Footer Section */
+
